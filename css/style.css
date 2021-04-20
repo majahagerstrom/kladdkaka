@@ -38,3 +38,7 @@ li a{
 li a:hover{
   background-color: rgba(205, 180, 123, 0.77);
 }
+
+ol{
+  list-style-type: lower-alpha;
+}
