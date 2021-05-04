@@ -65,3 +65,10 @@ h1{
   grid-column: 8/13;
   grid-row: 12/14;
 }
+
+@media only screen and (max-width 500px){
+  #hallon{
+    grid-column: 8/13;
+    grid-row: 16/18;
+  }
+}
