@@ -48,7 +48,15 @@ ol{
   height: 20vw;
 }
 
+a{
+  text-decoration: none;
+  color: black;
+}
 
+#hallon{
+  width: 40vw;
+  height: 25vw;
+}
 
 
 
