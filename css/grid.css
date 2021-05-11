@@ -76,11 +76,13 @@ h1{
   #hallon{
     grid-column: 1/-1;
     grid-row: 8;
+    justify-content: center;
   }
   /*Bildspel*/
   .section1{
     grid-column: 1/-1;
     grid-row: 5;
+    justify-content: center;
   }
   /*Historia på startsidan*/
   .aside-historia{
