@@ -1,14 +1,15 @@
-
+/* Övre bakgrundsbild */
 nav{
   background-image:url(../img/chokladkaka.jpeg);
 }
 
+/*Bakgrundsbild */
 body{
   background-color: rgba(158, 129, 12, 0.23);
 }
 
 
-
+/*Meny*/
 .meny{
   list-style-type: none;
   background-color: rgba(235, 155, 19, 0.2);
@@ -34,7 +35,7 @@ li a{
   padding-left: 100px;
   padding-right: 100px;
 }
-
+/*Bakgrundsfärg när pilen är över*/
 li a:hover{
   background-color: rgba(205, 180, 123, 0.77);
 }
@@ -42,24 +43,25 @@ li a:hover{
 ol{
   list-style-type: lower-alpha;
 }
-
+/*Bilder till receptsidan*/
 .bild-recept{
   width: 25vw;
   height: 20vw;
 }
-
+/*Länk*/
 a{
   text-decoration: none;
   color: black;
 }
 
+/*Bild på startsidan*/
 #hallon{
   width: 40vw;
   height: 25vw;
 }
 
 
-
+/*Bildspel */
 * {box-sizing:border-box}
 
 /* Slideshow container */
