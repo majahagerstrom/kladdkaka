@@ -74,8 +74,8 @@ h1{
 
 @media only screen and (max-width 850px){
   #hallon{
-    grid-column: 8/13;
-    grid-row: /;
+    grid-column: 1/-1;
+    grid-row: 8;
   }
   /*Bildspel*/
   .section1{
@@ -86,5 +86,11 @@ h1{
   .aside-historia{
     grid-column: 1/-1;
     grid-row: 6;
+  }
+  /*Tips på startsidan*/
+  .article-tips{
+    grid-column:1/-1;
+    grid-row: 7;
+
   }
 }
