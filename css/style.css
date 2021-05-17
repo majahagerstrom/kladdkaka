@@ -56,10 +56,13 @@ a{
 
 /*Bild på startsidan*/
 #hallon{
-  width: 40vw;
   height: 25vw;
 }
 
+/*Bilder i bildspel*/
+.bild-bildspel{
+  width: 40vw;
+}
 
 /*Bildspel */
 * {box-sizing:border-box}
@@ -136,4 +139,10 @@ a{
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+@media only screen and (max-width: 800px){
+  .bild-recept{
+    width: 50vw;
+  }
 }
